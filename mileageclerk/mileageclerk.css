@@ -1,0 +1,68 @@
+
+body {
+    background-color: #dddddd;
+}
+
+.session_title {
+    font-size: 40px;
+    padding: 20px;
+}
+
+.list_view {
+    width: 100%;
+}
+ul {
+    width: 100%;
+    left: 0px;
+}
+
+li {
+    list-style: none;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    left: 0px;
+}
+
+.var_div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-direction: row;
+}
+
+.title {
+    margin-left: 12px;
+    margin-top: 10px;
+    font-size: 36px;
+}
+
+.main_name {
+    position:relative;
+    margin-left: 10px;
+    font-size: 36px;
+    color: lightgray;
+}
+
+.sub_name {
+    margin-left: 12px;
+    font-size: 36px;
+    color: lightgray;
+}
+
+.mail {
+    margin-left: 12px;
+    font-size: 36px;
+    color: #999999;
+}
+
+.speed {
+    margin-left: 12px;
+    font-size: 36px;
+    color: #999999;
+}
+
+.bottom_line {
+    width: 100%;
+    background-color: #999999;
+    height: 1px;
+}
