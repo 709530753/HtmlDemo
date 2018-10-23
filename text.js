@@ -3,7 +3,7 @@ window.onload = function () {
     // var _ijt = decodeURIComponent(params["_ijt"])
     // alert(_ijt)
 
-    reqDataAjax()
+    // reqDataAjax()
 }
 
 // 接口调用方法

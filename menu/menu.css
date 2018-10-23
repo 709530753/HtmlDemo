@@ -3,16 +3,17 @@ body {
     padding: 0px;
     margin: 0px;
     background-color: #dddddd;
+    flex-direction: row;
 }
 
 .nav_view {
 
     width: 100%;
-    padding-top: 0px;
+    top: 0px;
     height: 128px;
     background-color: darkgoldenrod;
-    position: absolute;
     color: white;
+    position: fixed;
 }
 
 .nav_title {
@@ -31,6 +32,7 @@ body {
     margin-bottom: 0px;
     flex-direction: row;
     position: absolute;
+    overflow: hidden;
 }
 
 .left_view {
@@ -38,6 +40,7 @@ body {
     padding-top: 0px;
     padding-left: 0px;
     padding-bottom: 0px;
+    overflow: scroll;
 }
 
 .right_view {
@@ -86,10 +89,12 @@ body {
 
 .right_item {
     background-color: white;
-    padding-left: 0px;
     padding-top: 0px;
-    flex-direction: row;
-    justify-content: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-right: 10px;
+    margin-top: 10px;
+    float: left;
 }
 
 .right_item_img {
@@ -109,8 +114,9 @@ body {
 
     height: 50px;
     margin-top: 60px;
-    margin-left: 46px;
-    margin-right: 46px;
+    width: 200px;
+    border: 3px solid green;
+    margin: auto;
     font-size: 36px;
     text-align: center;
 
