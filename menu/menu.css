@@ -1,9 +1,11 @@
 
-body {
+html,body {
     padding: 0px;
     margin: 0px;
     background-color: #dddddd;
     flex-direction: row;
+    height: 100%;
+    width: 100%;
 }
 
 .nav_view {
@@ -25,28 +27,32 @@ body {
 }
 
 .content {
+    display: block;
     padding-top: 135px;
     padding-left: 0px;
+    width: 100%;
     padding-bottom: 0px;
-    padding-right: 0px;
-    margin-bottom: 0px;
-    flex-direction: row;
-    position: absolute;
-    overflow: hidden;
+    flex-direction: column;
+    /*!*position: fixed;*! 父类不能设置fixed*/
 }
 
+/* 和 right_view overflow-y: auto;互不影响*/
 .left_view {
     float: left;
-    padding-top: 0px;
+    margin-top: 15px;
     padding-left: 0px;
     padding-bottom: 0px;
-    overflow: scroll;
+    overflow-y: auto;
+    height: 92%;
+    position: fixed;
 }
 
 .right_view {
-    float: right;
-    padding-left: 10px;
-    padding-top: 0px;
+    display: block;
+    margin-top: 15px;
+    margin-left: 200px;
+    padding-right: 0px;
+    padding-bottom: 15px;
 
 }
 
@@ -69,9 +75,10 @@ body {
     width: 180px;
     height: 90px;
     font-size: 40px;
-    background-color: white;
+    background-color: #efefef;
     text-align: center;
     padding-top: 24px;
+    color: #666666;
 }
 
 .right_item {
@@ -80,6 +87,7 @@ body {
     width: 200px;
     height: 200px;
     padding-left: 0px;
+    padding-right: 0px;
 }
 
 .right_view ul {
@@ -88,13 +96,14 @@ body {
 }
 
 .right_item {
-    background-color: white;
     padding-top: 0px;
     padding-left: 25px;
-    padding-right: 25px;
+    padding-right: 20px;
     margin-right: 10px;
     margin-top: 10px;
     float: left;
+    margin-left: 5px;
+
 }
 
 .right_item_img {
@@ -109,13 +118,16 @@ body {
     margin-bottom: 20px;
 
 }
-
+/*
+  设置宽度无效解决 display: inline-block
+*/
 .right_item_title {
 
     height: 50px;
     margin-top: 60px;
     width: 200px;
-    border: 3px solid green;
+    display: inline-block;
+    /*border: 3px solid green;*/
     margin: auto;
     font-size: 36px;
     text-align: center;
