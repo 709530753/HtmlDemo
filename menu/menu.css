@@ -37,13 +37,17 @@ html,body {
 }
 
 /* 和 right_view overflow-y: auto;互不影响*/
+/*    height:-webkit-calc(100% - 128px - 25px); 百分比与固定值适应高度*/
 .left_view {
     float: left;
     margin-top: 15px;
     padding-left: 0px;
     padding-bottom: 0px;
     overflow-y: auto;
-    height: 92%;
+    /*height: 92%;*/
+    height:-webkit-calc(100% - 128px - 25px);
+    /*height:-moz-calc(100% - 128px - 15px);*/
+    /*height:calc(100% - 128px - 15px);*/
     position: fixed;
 }
 
@@ -52,8 +56,12 @@ html,body {
     margin-top: 15px;
     margin-left: 200px;
     padding-right: 0px;
-    padding-bottom: 15px;
-
+    padding-bottom: 10px;
+    /*background-color: #9cc5ef;*/
+    position: fixed;[]
+    overflow-y: auto;
+    float: left;
+    height:-webkit-calc(100% - 128px - 35px);
 }
 
 .left_view ul {
