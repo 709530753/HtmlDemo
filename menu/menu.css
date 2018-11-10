@@ -33,7 +33,7 @@ html,body {
     width: 100%;
     padding-bottom: 0px;
     flex-direction: column;
-    /*!*position: fixed;*! 父类不能设置fixed*/
+    /*position: fixed; 父类不能设置fixed*/
 }
 
 /* 和 right_view overflow-y: auto;互不影响*/
@@ -58,7 +58,7 @@ html,body {
     padding-right: 0px;
     padding-bottom: 10px;
     /*background-color: #9cc5ef;*/
-    position: fixed;[]
+    position: fixed;
     overflow-y: auto;
     float: left;
     height:-webkit-calc(100% - 128px - 35px);

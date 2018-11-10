@@ -20,8 +20,6 @@ window.onload = function () {
 
     });
 
-
-
 };
 
 function getRightViewContent(index) {
