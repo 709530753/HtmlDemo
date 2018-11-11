@@ -1,0 +1,117 @@
+
+html,body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #f5f5f5;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+.nav_div {
+    width: 100%;
+    top: 0px;
+    height: 128px;
+    background-color: #297cd3;
+    color: white;
+    position: fixed;
+}
+
+.nav_div span {
+
+    font-size: 51px;
+    display: flex;
+    justify-content:center;
+    align-items:Center;
+    padding-top: 35px;
+
+}
+
+.content {
+
+    width: 100%;
+    background-color: #f5f5f5;
+    padding-top: 128px;
+
+}
+
+.username_div {
+    margin-top: 20px;
+    width: 100%;
+    height: 90px;
+    background-color: #fff;
+}
+
+.username_span {
+    position: absolute;
+    padding-left: 30px;
+    width: 160px;
+    font-size: 39px;
+    margin-top:20px;
+}
+
+.username {
+    margin-left: 180px;
+    padding-right: 432px;
+    font-size: 40px;
+    height: 90px;
+}
+
+.password_div {
+    margin-top: 30px;
+    width: 100%;
+    height: 90px;
+    background-color: #fff;
+
+}
+
+.password_span {
+    position: absolute;
+    padding-left: 30px;
+    width: 160px;
+    font-size: 39px;
+    margin-top:20px;
+}
+
+.password {
+    margin-left: 180px;
+    padding-right: 432px;
+    font-size: 40px;
+    height: 90px;
+
+}
+
+.login-btn {
+    margin-left: 4%;
+    margin-top: 120px;
+    width: 92%;
+    height: 90px;
+    background-color: #297cd3;
+    padding-right: 30px;
+
+}
+
+.login-btn span {
+    position: absolute;
+    font-size: 45px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.regist_btn {
+    margin-top: 20px;
+    margin-left: 4%;
+    width: 92%;
+    height: 40px;
+    margin-right: 4%;
+
+}
+
+.regist_btn span {
+
+    font-size: 30px;
+    float: right;
+
+}

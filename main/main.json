@@ -1,0 +1,33 @@
+[{
+  "class":"home",
+  "title":"首页",
+  "icon":"../img/tabbar/home_normal.png",
+  "selected_icon":"../img/tabbar/home_selected.png",
+  "color":"#2c2c2c",
+  "selected_color":"#d4237a",
+  "content":"home/home.html"
+},{
+  "class":"classes",
+  "title":"分类",
+  "icon":"../img/tabbar/classes_normal.png",
+  "selected_icon":"../img/tabbar/classes_selected.png",
+  "color":"#2c2c2c",
+  "selected_color":"#d4237a",
+  "content":"classes/classes.html"
+},{
+  "class":"message",
+  "title":"消息",
+  "icon":"../img/tabbar/message_normal.png",
+  "selected_icon":"../img/tabbar/message_selected.png",
+  "color":"#2c2c2c",
+  "selected_color":"#d4237a",
+  "content":"message/message.html"
+},{
+  "class":"mine",
+  "title":"我的",
+  "icon":"../img/tabbar/mine_normal.png",
+  "selected_icon":"../img/tabbar/mine_selected.png",
+  "color":"#2c2c2c",
+  "selected_color":"#d4237a",
+  "content":"mine/mine.html"
+}]

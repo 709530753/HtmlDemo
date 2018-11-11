@@ -1,0 +1,137 @@
+
+html,body {
+    margin: 5px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #dddddd;
+    flex-direction: row;
+}
+
+.top_content {
+    flex-direction: row;
+    background-color: #ffffff;
+    height: 430px;
+}
+
+.top_title {
+    display: block;
+    font-size: 45px;
+    padding-left: 24px;
+}
+
+.top_content_view {
+    margin: 0px;
+}
+
+ul {
+    list-style: none;
+    background-color: white;
+}
+
+ul >li {
+    float: left;
+    height: 120px;
+    width: 30%;
+    margin-left: 1%;
+    margin-top: 1%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #dddddd;
+}
+
+ul >li > span {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+
+}
+
+.bottom_content {
+    margin-top: 20px;
+    background-color: white;
+    height: 1140px;
+}
+
+.bottom_content_top {
+    width: 100%;
+    padding: 15px;
+}
+
+.bottom_content_title_left {
+    float: left;
+    font-size: 36px;
+}
+
+
+.bottom_content_title_right {
+    float: right;
+    margin-right: 30px;
+    font-size: 36px;
+}
+
+.bottom_content_center {
+    padding-top: 20px;
+    width: 100%;
+    height: 680px;
+    flex-direction: column;
+}
+
+.canvas_circle_div {
+
+    margin-top: 90px;
+    width: 480px;
+    height: 480px;
+}
+
+.canvas_circle {
+    width: 200%;
+    height: 100%;
+    border: 2px;
+    solid-color: #dddddd;
+
+}
+
+.canvas_desc {
+    float: right;
+    margin-top: -440px;
+    width: 240px;
+    margin-right: 50px;
+    height: 68%;
+}
+
+.bottom_content_bottom {
+    width: 100%;
+    height: 400px;
+}
+
+.bottom_content_bottom >ul {
+    list-style: none;
+}
+
+.bottom_content_bottom >ul >li {
+    padding-left: 5px;
+    width: 22%;
+    height: 80px;
+    background-color: white;
+}
+
+
+.canvas_desc >img {
+    margin-left: 12px;
+    margin-bottom: 3px;
+    width: 20px;
+    height: 20px;
+    background-color: #6bacef;
+}
+.canvas_desc >span {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    font-size: 36px;
+
+}

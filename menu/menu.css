@@ -1,0 +1,143 @@
+
+html,body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #dddddd;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+.nav_view {
+
+    width: 100%;
+    top: 0px;
+    height: 128px;
+    background-color: darkgoldenrod;
+    color: white;
+    position: fixed;
+}
+
+.nav_title {
+    font-size: 51px;
+    display: flex;
+    justify-content:center;
+    align-items:Center;
+    padding-top: 40px;
+}
+
+.content {
+    display: block;
+    padding-top: 135px;
+    padding-left: 0px;
+    width: 100%;
+    padding-bottom: 0px;
+    flex-direction: column;
+    /*position: fixed; 父类不能设置fixed*/
+}
+
+/* 和 right_view overflow-y: auto;互不影响*/
+/*    height:-webkit-calc(100% - 128px - 25px); 百分比与固定值适应高度*/
+.left_view {
+    float: left;
+    margin-top: 15px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    overflow-y: auto;
+    /*height: 92%;*/
+    height:-webkit-calc(100% - 128px - 25px);
+    /*height:-moz-calc(100% - 128px - 15px);*/
+    /*height:calc(100% - 128px - 15px);*/
+    position: fixed;
+}
+
+.right_view {
+    display: block;
+    margin-top: 15px;
+    margin-left: 200px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    /*background-color: #9cc5ef;*/
+    position: fixed;
+    overflow-y: auto;
+    float: left;
+    height:-webkit-calc(100% - 128px - 35px);
+}
+
+.left_view ul {
+    padding-left: 0px;
+}
+
+.left_view ul li {
+    list-style-type: none;
+    width: 180px;
+    height: 90px;
+    font-size: 40px;
+    background-color: white;
+    text-align: center;
+    padding-top: 24px;
+}
+
+.left_item {
+    list-style-type: none;
+    width: 180px;
+    height: 90px;
+    font-size: 40px;
+    background-color: #efefef;
+    text-align: center;
+    padding-top: 24px;
+    color: #666666;
+}
+
+.right_item {
+    list-style-type: none;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.right_view ul {
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
+.right_item {
+    padding-top: 0px;
+    padding-left: 25px;
+    padding-right: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    float: left;
+    margin-left: 5px;
+
+}
+
+.right_item_img {
+
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: rebeccapurple;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+
+}
+/*
+  设置宽度无效解决 display: inline-block
+*/
+.right_item_title {
+
+    height: 50px;
+    margin-top: 60px;
+    width: 200px;
+    display: inline-block;
+    /*border: 3px solid green;*/
+    margin: auto;
+    font-size: 36px;
+    text-align: center;
+
+}
