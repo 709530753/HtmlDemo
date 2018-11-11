@@ -9,18 +9,14 @@ window.onload = function () {
     $.getJSON("main.json",function (data) {
         all_data = data;
         var bottom_html = ""
-
         $.each(data,function (i,item) {
 
-            console.log("itemIndex :" + i + " item :" + item.title);
-
-            bottom_html += "<li class=" + item.class + " + onclick='tabBarItemSelected(" + i + ")'><img id='" + 'image_' + i + "' src=" + item.icon + "/><span id='" + "title_" + i +"'>" + item.title + "</span></li>"
-
+            console.log("itemIndex :" + i + " item :" + item.icon);
+            bottom_html += "<li class=" + item.class + " + onclick='tabBarItemSelected(" + i + ")'><img id='" + 'image_' + i + "' src=" + item.icon + "/><span id='" + "title_" + i +"'>" + item.title + "</span></li>";
         })
         $(".bottom_view").html(bottom_html);
         tabBarItemSelected(0);
-
-
+        normalItem();
     });
 
 }
@@ -53,5 +49,18 @@ function tabBarItemSelected(index) {
 
     $(".content").html(content_html);
 
+
+}
+
+
+function normalItem() {
+
+    for(var i = 1; i<4; i ++) {
+        var item = all_data[i];
+       var image = document.getElementById("image_" + i);
+       var title = document.getElementById("title_" + i);
+        image.src = item.icon;
+        title.style.color = item.color;
+    }
 
 }
