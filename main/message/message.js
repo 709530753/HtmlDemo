@@ -36,7 +36,7 @@ function updateContentData(index) {
         var html = "";
         $.each(msgData,function (i, item) {
 
-            html += "<li class='push_item' onclick='itemClick(" + JSON.stringify(item) + ")'><img class='icon'/><div class='message_content' ><div class='message_content_top'><span class='title_name'>" + item.title_name +"</span><span class='push_time'>" + item.push_time +"</span></div><span class='content'>" + item.content +"</span></div><div class='bottom_line'></div></li>"
+            html += "<li class='push_item' onclick='itemClick(" + JSON.stringify(item) + ")'><img class='icon' src='../../img/classes/iphone.png'/><div class='message_content' ><div class='message_content_top'><span class='title_name'>" + item.title_name +"</span><span class='push_time'>" + item.push_time +"</span></div><span class='content'>" + item.content +"</span></div><div class='bottom_line'></div></li>"
         });
         list_view_html += html
         var totol_html = "";

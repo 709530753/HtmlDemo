@@ -7,13 +7,13 @@
   "selected_color":"#d4237a",
   "content":"home/home.html"
 },{
-  "class":"integral",
-  "title":"积分",
-  "icon":"../img/tabbar/integral_normal.png",
-  "selected_icon":"../img/tabbar/integral_selected.png",
+  "class":"classes",
+  "title":"分类",
+  "icon":"../img/tabbar/classes_normal.png",
+  "selected_icon":"../img/tabbar/classes_selected.png",
   "color":"#2c2c2c",
   "selected_color":"#d4237a",
-  "content":"integral/integral.html"
+  "content":"classes/classes.html"
 },{
   "class":"message",
   "title":"消息",

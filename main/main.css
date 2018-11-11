@@ -48,21 +48,21 @@ html,body {
     text-align: center;
 }
 
-.integral {
+.classes {
     margin-left: 0px;
     flex: 1;
     height: 100%;
     display:inline-block;
 }
 
-.integral img {
+.classes img {
     margin-top: 10px;
     margin-left: -webkit-calc(50% - 35px);
     width: 70px;
     height: 70px;
 
 }
-.integral span {
+.classes span {
 
     font-size: 39px;
     width: 100%;
