@@ -2,49 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ac93123-c88a-45b5-8e36-beb76b92b592" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/cc-head.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/classes/iphone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/home/babber/banner_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/home/babber/banner_2.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/home/babber/banner_3.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/home/babber/banner_4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/home/京东.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/home/微信.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/home/支付宝.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/home/有道云笔记.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/home/爱奇艺.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/home/百度.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/home/短信.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/home/谷歌.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/mine/帖子.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/mine/注销.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/mine/设置.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/mine/账号.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/mine/足迹.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/mine/通知.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/mine/项目.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/tabbar/classes_normal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/tabbar/classes_selected.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/箭头.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/classes/classes.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/tabbar/integral_normal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/tabbar/integral_selected.png" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/main/integral/integral.css" afterPath="$PROJECT_DIR$/main/classes/classes.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/main/integral/integral.html" afterPath="$PROJECT_DIR$/main/classes/classes.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/main/integral/integral.js" afterPath="$PROJECT_DIR$/main/classes/classes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guide/guide.html" afterPath="$PROJECT_DIR$/guide/guide.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/home/home.css" afterPath="$PROJECT_DIR$/main/home/home.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/home/home.html" afterPath="$PROJECT_DIR$/main/home/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/home/home.js" afterPath="$PROJECT_DIR$/main/home/home.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/main.css" afterPath="$PROJECT_DIR$/main/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/main.html" afterPath="$PROJECT_DIR$/main/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/main.json" afterPath="$PROJECT_DIR$/main/main.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/message/message.css" afterPath="$PROJECT_DIR$/main/message/message.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/message/message.js" afterPath="$PROJECT_DIR$/main/message/message.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/mine/mine.css" afterPath="$PROJECT_DIR$/main/mine/mine.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/mine/mine.html" afterPath="$PROJECT_DIR$/main/mine/mine.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/mine/mine.js" afterPath="$PROJECT_DIR$/main/mine/mine.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/main.js" afterPath="$PROJECT_DIR$/main/main.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -59,36 +19,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="classes.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/classes/classes.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="classes.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/classes/classes.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="67" lean-forward="false" selection-start-line="4" selection-start-column="67" selection-end-line="4" selection-end-column="67" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="classes.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/classes/classes.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="message.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/message/message.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -99,7 +29,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mine.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mine.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/mine/mine.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
@@ -131,11 +61,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="message.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/message/message.json">
+      <file leaf-file-name="menu.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/menu/menu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="11" />
+            <state relative-caret-position="46">
+              <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="51" lean-forward="false" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/main.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -230,7 +200,6 @@
         <option value="$PROJECT_DIR$/login/login.js" />
         <option value="$PROJECT_DIR$/regist/regist.css" />
         <option value="$PROJECT_DIR$/main/home.html" />
-        <option value="$PROJECT_DIR$/main/main.js" />
         <option value="$PROJECT_DIR$/main/integral/integral.html" />
         <option value="$PROJECT_DIR$/main/common/common.css" />
         <option value="$PROJECT_DIR$/main/message/message.html" />
@@ -239,8 +208,6 @@
         <option value="$PROJECT_DIR$/main/home/home.js" />
         <option value="$PROJECT_DIR$/main/home/home.css" />
         <option value="$PROJECT_DIR$/main/home/home.html" />
-        <option value="$PROJECT_DIR$/main/main.html" />
-        <option value="$PROJECT_DIR$/main/main.css" />
         <option value="$PROJECT_DIR$/main/main.json" />
         <option value="$PROJECT_DIR$/main/classes/classes.html" />
         <option value="$PROJECT_DIR$/main/classes/classes.js" />
@@ -250,6 +217,9 @@
         <option value="$PROJECT_DIR$/main/message/message.css" />
         <option value="$PROJECT_DIR$/main/mine/mine.html" />
         <option value="$PROJECT_DIR$/main/mine/mine.css" />
+        <option value="$PROJECT_DIR$/main/main.html" />
+        <option value="$PROJECT_DIR$/main/main.js" />
+        <option value="$PROJECT_DIR$/main/main.css" />
       </list>
     </option>
   </component>
@@ -290,20 +260,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="menu" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -529,12 +485,12 @@
       <workItem from="1540733368232" duration="2195000" />
       <workItem from="1541215295537" duration="23988000" />
       <workItem from="1541301012185" duration="5596000" />
-      <workItem from="1541830104705" duration="40871000" />
+      <workItem from="1541830104705" duration="42606000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139887000" />
+    <option name="totallyTimeSpent" value="141622000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -868,38 +824,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="22" lean-forward="false" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
-          <caret line="64" column="8" lean-forward="false" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/main.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/menu/menu.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="751">
@@ -912,14 +836,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/menu/menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1000,6 +916,14 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main/mine/mine.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main/mine/mine.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1008,10 +932,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/mine/mine.css">
+    <entry file="file://$PROJECT_DIR$/menu/menu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        <state relative-caret-position="46">
+          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="51" lean-forward="false" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/main.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
